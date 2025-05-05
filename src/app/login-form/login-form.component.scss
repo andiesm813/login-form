@@ -30,12 +30,15 @@
   display: flex;
 }
 .group {
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   align-content: flex-start;
+  gap: 8px;
   position: relative;
 }
 .register {
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: flex-start;
